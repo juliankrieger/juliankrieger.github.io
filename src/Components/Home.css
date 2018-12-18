@@ -1,0 +1,20 @@
+.Home{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+.Home-text-field{
+    flex: 2;
+    background-color: lightgrey;
+}
+
+.Home-LeftBar{
+    flex: 1;
+}
+
+.Home-RightBar{
+    flex: 3;
+}
