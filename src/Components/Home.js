@@ -9,7 +9,11 @@ export default class Home extends React.Component{
                 <div className="Home">
                     <AdSideBar className="Home-LeftBar"/>
                     <div className="Home-text-field">
-                        <p>Middle</p>
+                        <div className="Home-text">
+                           <h2 style={{textDecoration: "underline"}}>Website for testing purposes</h2>
+                           <p>Test text</p>
+                        </div>
+                        
                     </div>
                     <AdSideBar className="Home-RightBar"/>
 

@@ -14,11 +14,12 @@ const buttonStyle = {
 
 const theme = createMuiTheme({
   palette: {
-    primary: Colors.grey,
-    secondary: Colors.blueGrey,
-    menuButton: {
-      margin: "30px"
-    }
+    primary: {
+      main: Colors.grey[900]
+    },
+    secondary: {
+      main: Colors.grey[300]
+    },
   },
 })
 
@@ -29,10 +30,10 @@ function Navbar(props) {
     <MuiThemeProvider theme={theme}>
         <AppBar position="static" >
           <Toolbar>
-            <Typography variant="h6" color="inherit">
+            <Typography variant="h6" color="secondary">
               Home
             </Typography>
-            <Button style={buttonStyle} href="https://juliankrieger.github.io/up-for-grabs.net/"> Up For Grabs </Button>
+            <Button style={buttonStyle} color="secondary" href="https://juliankrieger.github.io/up-for-grabs.net/"> Up For Grabs </Button>
           </Toolbar>
         </AppBar>
       </MuiThemeProvider>

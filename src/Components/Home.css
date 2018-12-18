@@ -8,7 +8,12 @@
 
 .Home-text-field{
     flex: 2;
-    background-color: lightgrey;
+    background-color: #ececec;
+}
+
+.Home-text{
+    text-align: left;
+    margin-left: 20px;
 }
 
 .Home-LeftBar{
